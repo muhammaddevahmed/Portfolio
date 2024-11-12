@@ -1,0 +1,265 @@
+/* global section */
+:root {
+  /* --background color-- */
+  --primary-color: #fd4766;
+  --secondart-color: #0e1525;
+  --bg-dark-blue: #091020;
+  --bg-white: #fff;
+  --gray-color: #c6c9d8df;
+  /* --text color-- */
+  --primary-color: #fd4766;
+  --text-gray: #c6c9d8bf;
+  --text-white: #fff;
+}
+
+/* --media 991px-- */
+@media (max-width: 991px) {
+
+  /* --custom css */
+  section {
+    padding: 30px 0 !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  /* --navbar */
+  .header-scrolled {
+    height: auto !important;
+  }
+
+  .header_wrapper .menu-navbar-nav {
+    text-align: center !important;
+    background-color: var(--bg-dark-blue) !important;
+    padding-bottom: 15px !important;
+  }
+
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 15px !important;
+  }
+
+
+
+  /* about section */
+  .about_wrapper ul.nav-pills {
+    width: 61% !important;
+    margin: auto !important;
+  }
+
+  /* potfolio */
+  .potfolio_wrapper .card {
+    min-height: 400px !important;
+  }
+
+  /* ==========  contact form =========== */
+  .social_media_icon {
+    margin-top: 30px !important;
+    margin-left: 0px !important;
+  }
+}
+
+/* --media 767px-- */
+@media (max-width: 767px) {
+
+  /* --custom css */
+  h1 {
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  p {
+    font-size: 13px !important;
+    line-height: 24px !important;
+  }
+
+  .porfolio_images .potfolio_img {
+    margin-top: 100px !important;
+  }
+
+  /* ====== banner section ===== */
+  .porfolio_images {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .my_images {
+    margin-top: 30px !important;
+
+  }
+
+
+  /* about section */
+  .about_wrapper ul.nav-pills {
+    width: 100% !important;
+    margin: auto !important;
+    border: none !important;
+  }
+
+  .about_wrapper ul li .nav-link {
+    font-size: 13px !important;
+  }
+
+  .about_wrapper {
+    margin-top: 0px !important;
+  }
+
+  /* potfolio */
+  .potfolio_wrapper .card {
+    min-height: 500px !important;
+  }
+
+  /* ==========  contact form =========== */
+  .social_media_icon {
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+  }
+}
+
+
+
+
+/* ===== mobile view ====== */
+@media (max-width: 576px) {
+  .name_content {
+    text-align: left !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  span {
+    font-size: 40px !important;
+  }
+
+  .banner_wrapper {
+    padding-top: 80px !important;
+  }
+
+  h3 {
+    text-align: left !important;
+    font-size: 16px !important;
+  }
+
+  .hand_img {
+    width: 40px !important;
+  }
+
+  .socail_media_icon {
+    text-align: left !important;
+    margin-right: 25px !important;
+
+  }
+
+  .cv_button {
+    text-align: left !important;
+    margin-top: 20px !important;
+  }
+
+  .porfolio_images {
+    margin-top: 50px !important;
+  }
+
+  /* .porfolio_images .my_images {
+    box-shadow: 0px 0px 10px steelblue !important;
+    width: 100% !important;
+    border-radius: 10% !important;
+  } */
+  .porfolio_images .potfolio_img {
+    margin-top: 20px !important;
+    width: 100% !important;
+    height: 400px !important;
+    z-index: 1 !important;
+
+  }
+
+  /* ===== about section ===== */
+  .about_wrapper {
+    margin-top: 0px !important;
+
+  }
+
+  .about_section {
+    margin-top: 0px !important;
+  }
+
+  .opportunity {
+    font-size: 16px !important;
+  }
+
+  .about_wrapper ul li .nav-link {
+    margin: 5px !important;
+  }
+
+  /* ===== services section ===== */
+  .services_wrapper {
+    margin-top: 10px !important;
+  }
+
+  .servives_heading {
+    text-align: center !important;
+  }
+
+  .services_wrapper .services_section {
+    font-size: 30px !important;
+  }
+
+  /* ===== potfolio section ===== */
+  .potfolio_wrapper {
+    margin-top: -50px !important;
+  }
+
+  .project_text {
+    font-size: 30px !important;
+  }
+/* =================== JAVA SCRIPT ================= */
+.github_view .btn_github {
+  margin-bottom: 15px !important;
+  width: 100% !important;
+}
+.github_view .btn_lve {
+  margin-bottom: 15px !important;
+  width: 100% !important;
+}
+  /* ===== contact form ===== */
+  .contact_form {
+    margin-top: -50px !important;
+  }
+
+  .form_heading {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .social_media_icon {
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+  }
+
+  .social_media_icon .icon {
+    margin-top: 10px !important;
+  }
+
+  .social_media_icon .conatct_name {
+    font-size: 16px !important;
+  }
+
+  /* ============= footer section ============ */
+  .footer_div span {
+    font-size: 16px !important;
+  }
+  footer {
+    margin-top: 0px !important;
+  }
+}

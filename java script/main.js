@@ -27,3 +27,4 @@ document.querySelectorAll(".portfolio-card").forEach((card) => {
     }
   });
 });
+
